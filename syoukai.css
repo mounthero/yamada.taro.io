@@ -1,0 +1,15 @@
+body {
+    background: gray;
+}
+
+/* セクション */
+section {
+    padding: 3rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px var(--shadow-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
