@@ -1,0 +1,26 @@
+<!-- career.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>経歴</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>経歴</h1>
+        <ul>
+            <li>2020年 - ○○大学卒業</li>
+            <li>2021年 - Web開発会社に入社</li>
+            <li>2023年 - フリーランスエンジニアとして活動開始</li>
+        </ul>
+        <button id="toIntro">自己紹介に戻る</button>
+    </div>
+    <script>
+        document.getElementById('toIntro').addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
